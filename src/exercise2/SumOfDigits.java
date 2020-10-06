@@ -7,7 +7,7 @@ public class SumOfDigits  {
    public static void main(String[] args) {
      Scanner input = new Scanner(System.in);
 
-     int a = 888;
+     int a = input.nextInt();
      int digit1 = a % 10;
      a = a / 10;
      int digit2 = a % 10;
